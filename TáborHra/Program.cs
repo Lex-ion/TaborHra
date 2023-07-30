@@ -68,6 +68,13 @@
             {
                 mem[i].SumUp();
             }
+            for (int i = 0; i < 10; i++)
+            {
+                Console.Beep(1350, 1000);
+                Thread.Sleep(1000);
+            }
+            
+
 
         }
         static List<Buildings> SetBuildings()
